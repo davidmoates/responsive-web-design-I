@@ -228,9 +228,20 @@ hr {
 
 /* adding media queries to CSS here. */
 
-@media (max-width 800px) {
-
+@media (max-width: 800px) {
+  .roundIMG {
+    display: none;
+  }
+  .serviceNAV {
+    margin-top: 100px;
+  }
+  #logoPNG {
+    position: absolute;
+    top: 10px;
+    padding-bottom: 25px;
+    margin-bottom: 20px;
+  }
 }
-@media (max-width 500px) {
+/* @media (max-width 500px) {
 
-}
+} */
