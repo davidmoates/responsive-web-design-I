@@ -1,3 +1,163 @@
 /* Use your own code or past solution for Great Idea Web Page CSS here! */
 
 
+nav {
+  /* border: 1px solid blue; */
+	margin: 25px;
+	margin-bottom: 50px;
+  display: flex;
+	justify-content: space-around;
+	align-items: center;
+  /* vertical-align: middle; */
+  /* width: 1000px;
+  height: auto; */
+}
+div {
+  /* border: 1px solid green; */
+}
+a {
+  /* border: 1px solid red; */
+  text-decoration: none;
+  color: grey;
+  /* vertical-align: middle; */
+  /* margin: 10px;
+  padding: 25px; */
+}
+p {
+  /* border: 1px solid red; */
+  text-align: left;
+}
+.logo {
+  vertical-align: middle;
+}
+.top {
+  display: flex;
+	align-items: center;
+	justify-content: center;
+  /* border: 1px solid blue; */
+  /* vertical-align: middle; */
+  /* width: 1000px;
+  height: auto; */
+}
+.roundIMG {
+  /* border: 1px solid red; */
+  width: 40%;
+  height: auto;
+  /* text-align: right; */
+  /* vertical-align: middle; */
+  padding: 25px;
+}
+.title {
+  /* border: 1px solid red; */
+  /* display: flex; */
+  text-align: center;
+  vertical-align: middle;
+  padding: 25px;
+}
+h1 {
+  /* border: 1px solid red; */
+  font-size: 80px;
+  text-align: center;
+}
+h4 {
+  /* border: 1px solid red; */
+  text-align: left;
+}
+button {
+  background-color: white;
+  border: 1px solid black;
+  width: 150px;
+  height: 25px;
+}
+.middle {
+  /* display: flex;
+  text-align: center; */
+}
+.middleTOP {
+	border-top: 1px solid black;
+  margin: 50px;
+  padding-top: 25px;
+  /* box-sizing: border-box; */
+  display: flex;
+	align-items: center;
+  /* text-align: center;
+  vertical-align: middle; */
+
+}
+.features {
+  /* display: flex; */
+  /* text-align: center;
+  vertical-align: middle;
+  width: 49%; */
+  padding-right: 10px;
+}
+.about {
+  /* display: flex; */
+  /* text-align: center;
+  vertical-align: middle;
+  width: 49%; */
+  padding-left: 10px;
+}
+.middleIMG {
+	display: flex;
+	justify-content: center;
+	/* text-align: center; */
+	max-width: 100%;
+	height: auto;
+}
+.middleBOTTOM {
+  margin: 50px;
+  padding-bottom: 25px;
+  display: flex;
+	justify-content: center;
+	align-content: space-between;
+  /* text-align: center; */
+  border-bottom: 1px solid black;
+}
+.services {
+  /* display: flex;
+  text-align: center;
+  vertical-align: middle;
+  width: 32%; */
+  padding-right: 10px;
+}
+.product {
+  /* display: flex;
+  text-align: center;
+  vertical-align: middle;
+  width: 32%; */
+	padding-right: 10px;
+  padding-left: 10px;
+}
+.vision {
+  /* display: flex;
+  text-align: center;
+  vertical-align: middle;
+  width: 32%; */
+  padding-left: 10px;
+}
+.contact {
+  margin: 50px;
+  width: 33%;
+  text-align: left;
+  vertical-align: middle;
+  /* padding: 25px; */
+}
+footer {
+  margin: 10px;
+	margin-bottom: 100px;
+  padding: 25px;
+	display: flex;
+	justify-content: center;
+  /* border: 1px solid red; */
+  /* text-align: center; */
+}
+#copyright {
+  /* border: 1px solid red; */
+  /* display: flex; */
+  text-align: center;
+}
+hr {
+	border-top: 1px solid black;
+	margin: 25px;
+}
