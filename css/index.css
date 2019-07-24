@@ -209,7 +209,7 @@ button {
 }
 footer {
   margin: 10px;
-	margin-bottom: 100px;
+	margin-bottom: 20px;
   padding: 25px;
 	display: flex;
 	justify-content: center;
@@ -228,6 +228,7 @@ hr {
 
 /* adding media queries to CSS here. */
 
+/* Tablet Size CSS */
 @media (max-width: 800px) {
   .roundIMG {
     display: none;
@@ -241,7 +242,66 @@ hr {
     padding-bottom: 25px;
     margin-bottom: 20px;
   }
+  .middleIMG img {
+    width: 725px;
+    height: auto;
+  }
 }
-/* @media (max-width 500px) {
 
-} */
+/* Mobile Size CSS */
+@media (max-width: 500px) {
+  .serviceNAV {
+    display: flex;
+    flex-direction: column;
+    margin: 85px;
+  }
+  a {
+    border-top: 1px solid black;
+    padding: 10px;
+    width: 800px;
+    text-align: center;
+  }
+  #contact {
+    border: 1px solid black;
+  }
+  #logoPNG {
+    position: absolute;
+    top: 20px;
+    /* padding-bottom: 10px; */
+    /* margin-bottom: 10px; */
+    border: none
+  }
+  .middleIMG img {
+    width: 425px;
+    height: auto;
+    margin: 1px;
+  }
+  .middleTOP {
+    flex-direction: column;
+    margin: 10px;
+  }
+  .features {
+    margin: 10px;
+    padding: 10px;
+  }
+  .about {
+    margin: 10px;
+    padding: 10px;
+  }
+  .middleBOTTOM {
+    flex-direction: column;
+    margin: 10px;
+  }
+  .services {
+    margin: 10px;
+    padding: 10px;
+  }
+  .product {
+    margin: 10px;
+    padding: 10px;
+  }
+  .vision {
+    margin: 10px;
+    padding: 10px;
+  }
+}
