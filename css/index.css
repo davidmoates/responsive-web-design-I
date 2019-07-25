@@ -329,6 +329,8 @@ li {
 
 /* adding media queries to CSS here. */
 
+/* I tried to not use position:absolute but could not get the top logo to work. */
+/* I also do not know to get the border around the a to go the across the page any other way. */
 /* Tablet Size CSS */
 @media (max-width: 800px) {
   .roundIMG {
