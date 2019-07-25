@@ -227,6 +227,106 @@ hr {
 	margin: 25px;
 }
 
+
+.headerSIMG {
+	display: flex;
+	justify-content: center;
+}
+ul {
+	list-style: square outside;
+	margin: 10px;
+	padding: 10px;
+}
+.serviceNAV {
+	margin-bottom: 0px;
+}
+h2 {
+	font-size: 25px
+}
+.services-header-img {
+	margin: 25px;
+}
+.serviceCLASS {
+	margin: 25px;
+	padding-bottom: 20px;
+	/* border-bottom: 1px solid black; */
+}
+.serviceBOX {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.grayBOX {
+	border: 1px solid black;
+	background: gainsboro;
+	width: 45%;
+	height: auto;
+	margin: 20px;
+	padding: 25px;
+}
+.serviceBUTTON {
+	margin-top: 20px;
+	border-radius: 5px;
+	width: 150px;
+	height: 35px;
+}
+hr {
+	border-top: 1px solid black;
+	margin: 25px;
+}
+.bottomLINE {
+	display: flex;
+	justify-content: center;
+	margin
+}
+.someFACTS {
+	margin: 10px;
+	padding: 25px;
+}
+.services-info-img {
+	margin: 10px;
+	padding: 25px
+}
+li {
+	padding: 5px;
+}
+.serviceFOOTER {
+	margin-top: 50px;
+}
+.visionIMG {
+	padding: 40px;
+	margin: 10px;
+	display: flex;
+	justify-content: center;
+}
+.whiteBOX {
+	/* border: 1px solid black;
+	background: gainsboro; */
+	width: 25%;
+	height: auto;
+	margin: 20px;
+	padding: 25px;
+}
+.visionBOX {
+	border: 2px solid dimgray;
+	background: lightslategray;
+	width: 55%;
+	height: auto;
+	margin: 20px;
+	padding: 25px;
+	color: white;
+}
+.visionBUTTON {
+	margin-top: 20px;
+	border-radius: 5px;
+	width: 150px;
+	height: 35px;
+	border: 2px solid gray;
+	background: dimgray;
+	color: white;
+}
+
+
 /* adding media queries to CSS here. */
 
 /* Tablet Size CSS */
@@ -247,23 +347,46 @@ hr {
     width: 725px;
     height: auto;
   }
+  .headerSIMG img {
+    width: 725px;
+    height: auto;
+  }
+  .grayBOX {
+  	border: 1px solid black;
+  	background: gainsboro;
+  	width: 80%;
+  	height: auto;
+  }
+  .bottomLINE {
+    flex-wrap: wrap;
+  }
+  .bottomLINE img {
+    width: 80%;
+    height: auto;
+    text-align: right;
+  }
 }
+
+
 
 /* Mobile Size CSS */
 @media (max-width: 500px) {
   .serviceNAV {
     display: flex;
+    justify-content: center;
     flex-direction: column;
     margin: 85px;
   }
   a {
     border-top: 1px solid black;
     padding: 10px;
-    width: 800px;
+    width: 500px;
     text-align: center;
   }
   #contact {
     border: 1px solid black;
+    border-right: 0px;
+    border-left: 0px:
   }
   #logoPNG {
     position: absolute;
@@ -272,6 +395,10 @@ hr {
     /* margin-bottom: 10px; */
     border: none
   }
+  .headerSIMG img {
+    width: 425px;
+    height: auto;
+}
   .middleIMG img {
     width: 425px;
     height: auto;
